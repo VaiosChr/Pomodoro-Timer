@@ -1,2 +1,35 @@
 # Pomodoro-Timer
-An arduino based timer implementing the pomodoro technique.
+An Arduino based timer implementing the pomodoro technique.
+
+
+
+## The files:
+* **TM1637-master**:
+This folder contains the library (M1637Display.h) that the project uses to write data on to the 4-digit, 7-segment display. Download this and add it to the libraries folder of the Arduino IDE.
+
+* **pomodoro.ino**
+The code for the project
+
+
+
+## **The parts:**
+* **Display**
+A TM1637 display with the clock dots in the middle (XX:XX).
+
+* **Push Button**
+A button to start the timer.
+
+* **LED & Buzzer**
+An LED and buzzer to indicate when "work time" or "break time" has finished. 
+
+
+
+## The pins:
+* **LED:** digital pin 8 (D8)
+* **Button:** analog pin 0 (A0)
+* **Buzzer:** digital pin 11 (D11)
+* **Display:** 
+  * GND: GND
+  * VCC: 5V
+  * DIO: digital pin 3 (D3)
+  * CLK: digital pin 2(D2)
