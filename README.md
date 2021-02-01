@@ -1,5 +1,5 @@
 # Pomodoro-Timer
-An Arduino based timer implementing the pomodoro technique.
+An Arduino based timer implementing the pomodoro technique with a 4-digit, 7-segment display.
 
 
 
