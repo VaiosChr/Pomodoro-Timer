@@ -8,7 +8,10 @@ An Arduino based timer implementing the pomodoro technique with a 4-digit, 7-seg
 This folder contains the library (TM1637Display.h) that the project uses to write data on to the 4-digit, 7-segment display. Download this and add it to the libraries folder of the Arduino IDE.
 
 * **pomodoro.ino**
-The code for the project
+The code for the project.
+
+* **pomodoro_schematic.png**
+The schematic for the project.
 
 
 
