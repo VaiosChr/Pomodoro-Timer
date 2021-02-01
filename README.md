@@ -5,7 +5,7 @@ An Arduino based timer implementing the pomodoro technique with a 4-digit, 7-seg
 
 ## The files:
 * **TM1637-master**:
-This folder contains the library (M1637Display.h) that the project uses to write data on to the 4-digit, 7-segment display. Download this and add it to the libraries folder of the Arduino IDE.
+This folder contains the library (TM1637Display.h) that the project uses to write data on to the 4-digit, 7-segment display. Download this and add it to the libraries folder of the Arduino IDE.
 
 * **pomodoro.ino**
 The code for the project
@@ -29,7 +29,7 @@ An LED and buzzer to indicate when "work time" or "break time" has finished.
 * **Button:** analog pin 0 (A0)
 * **Buzzer:** digital pin 11 (D11)
 * **Display:** 
-  * GND: GND
-  * VCC: 5V
-  * DIO: digital pin 3 (D3)
-  * CLK: digital pin 2(D2)
+  1. GND: GND
+  1. VCC: 5V
+  1. DIO: digital pin 3 (D3)
+  1. CLK: digital pin 2(D2)
